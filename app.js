@@ -41,3 +41,4 @@ geo.getLocation(argv.a, (err, res) => {
   });
 })
 .catch(console.log);
+// something else
