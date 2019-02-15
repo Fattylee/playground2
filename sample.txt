@@ -2,5 +2,6 @@ this is a sample text file
 this is master edit
 okay there
 more txt
+this is more-edit branch edit
 yes more txt
 
