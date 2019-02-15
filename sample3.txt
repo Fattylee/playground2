@@ -1,1 +1,2 @@
 This is sample 3 text file
+more text goes here
