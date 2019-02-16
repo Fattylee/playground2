@@ -5,3 +5,72 @@ more txt
 this is more-edit branch edit
 yes more txt
 
+GIT CHEATSHEET
+
+cat filename
+echo 'text content' >> filename
+ll
+ls -l
+ls -a   (ls -al) 
+
+
+git config --global user.name "myName" 
+git config user.name "your name" 
+git config user.email 'your email address "
+git config [--global] user.name
+git config --global --list
+git diff HEAD HEAD^ OR --cached OR HEAD OR uid uid OR branch branch
+git rebase branch 
+git rebase --abort
+
+
+git remote add aliasname[origin] urladdress
+git remote set-url aliasname urladdress
+git remote rename oldname newname
+git remote remove aliasname
+git remote -v // see all 
+git branch --set-upstream-to=abu/master master
+
+git ls-files
+git commit -am 'commit msg here' // works only for files in the tracking directory 
+
+git push aliasname branchname
+git pull ali
+git clone repourl
+
+git init
+rm - rf .git  // Delete file
+git add .    // recursive add to git index/staging 
+git reset HEAD filename    // unstage/remove from staging area
+git checkout -- filename // remove all changes in working dir back to last commit 
+git mv filename filename2 // rename/move file using git rm filename 
+git config --global alias.hist 'log --online --graph --decorate' 
+
+
+git commit -a -m [ -am ] "some message"
+git rm --cached  <files>... 
+git commit -m "blab lala"
+git commit #idnum
+git revert #idnum //for undoing 
+git reset #idnum // undo commit 
+git reset #idnum --hard // undo commit n files
+git log
+git log --oneline --graph --decorate --all
+
+git branch
+git branch newbranchname
+git branch -d branch name // Delete branch
+git branch -D branchname
+git branch -mv oldbranchname newbranchname 
+git branch -m oldbranch newbranch
+git checkout branchname 
+git merge branchname // with fast forward method 
+git merge branchname --no-ff // with recursive flag (I prefer this) 
+git checkout branchname -f
+git checkout -b newbranchname
+
+git fetch   // (used to synchronize with remote repo) 
+git pull --rebase origin master
+
+
+mv oldname newname //for renaming a file 
