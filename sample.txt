@@ -30,7 +30,7 @@ git remote rename oldname newname
 git remote remove aliasname
 git remote -v // see all 
 git branch --set-upstream-to=abu/master master
-
+// yes boss! 
 git ls-files
 git commit -am 'commit msg here' // works only for files in the tracking directory 
 
